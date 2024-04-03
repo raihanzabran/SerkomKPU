@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="131dp"
+        android:layout_height="130dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center|fill"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="logo"
+        android:src="@drawable/kpulogo" />
+
+    <Button
+        android:id="@+id/buttonInformasi"
+        style="@style/AppButton"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center|fill"
+        android:layout_margin="8dp"
+        android:drawableTop="@drawable/ic_info"
+        android:drawablePadding="8dp"
+        android:padding="8dp"
+        android:text="Informasi Pemilihan Umum"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonFormEntry"
+        style="@style/AppButton"
+        android:layout_width="91dp"
+        android:layout_height="256dp"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center|fill"
+        android:layout_margin="8dp"
+        android:drawableTop="@drawable/ic_input"
+        android:drawablePadding="8dp"
+        android:padding="8dp"
+        android:text="Form Entri Data Calon Pemilih"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonLihatData"
+        style="@style/AppButton"
+        android:layout_width="103dp"
+        android:layout_height="187dp"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center|fill"
+        android:layout_margin="8dp"
+        android:drawableTop="@drawable/ic_list"
+        android:drawablePadding="8dp"
+        android:padding="8dp"
+        android:text="Melihat Informasi Data Pemilih"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonKeluar"
+        style="@style/AppButton"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center|fill"
+        android:layout_margin="8dp"
+        android:drawableTop="@drawable/ic_exit"
+        android:drawablePadding="8dp"
+        android:padding="8dp"
+        android:text="Keluar"
+        android:textSize="20sp"/>
+</GridLayout>
